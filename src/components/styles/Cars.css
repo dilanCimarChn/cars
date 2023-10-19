@@ -1,0 +1,12 @@
+.cars{
+    height: 88vh;
+}
+.cars-container{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+    gap: 5%;
+}
+ 

@@ -1,0 +1,17 @@
+.button{
+    width: 350px;
+    display: flex;
+    padding: 30px;
+}
+.orange-button{
+    width: 80%;
+    max-width: 150px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}

@@ -1,0 +1,25 @@
+.organizmo-contenedor{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 300px;
+    margin: 1px;
+}
+.orange{
+    background-color: var(--Bright-orange);
+}
+.green{
+    background-color: var(--Dark-cyan);
+}
+.dark-green{
+    background-color: var(--Very-dark-cyan);
+}
+.red{
+    background-color: var(--Red);    
+}
+.pink{
+    background-color: var(--Pink);
+}
+.violet{
+    background-color: var(--Violet);
+}
+
