@@ -1,8 +1,11 @@
 .organizmo-contenedor{
     border: 2px solid black;
     border-radius: 50px;
-    width: 300px;
-    margin: 1px;
+    width: min(300px, 100%);
+    flex: 0 1 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 .orange{
     background-color: var(--Bright-orange);
