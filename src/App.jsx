@@ -9,9 +9,9 @@ function App() {
      {
       cars.map(car=>{
         return(
-          <Card cars={car}>
+          <Card key={car.id} cars={car}>
           <Cars cars={car}/>
-          <Button button/>
+          <Button car={car}/>
           </Card>
         )
       })

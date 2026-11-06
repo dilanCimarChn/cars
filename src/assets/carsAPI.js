@@ -1,82 +1,12 @@
-
+// Fictional categories for the component demonstration, not a rental inventory.
 export const cars = [
-  {
-    title: "Sedans",
-    description:"Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.",
-    imgUrl: "/icon-sedans.svg",
-    theme: "orange", 
-    pais: "rusia"
-  },
-  {
-    title: "Suvs",
-    description:"Take an SUV for its spacious interior, power and veraitily. Perfect for your next faminily vacation and off-roadTake an SUV for its spacious interior, power and veraitily. Perfect for your next faminily vacation and off-roadTake an SUV for its spacious interior, power and veraitily. Perfect for your next faminily vacation and off-road adventures.",
-    imgUrl: "/icon-suvs.svg",
-    theme: "green",
-  },
-  {
-    title: "Luxury",
-    description:"Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-luxury.svg",
-    theme: "dark-green",
-  },
-  {
-    title: "1",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-sedans.svg",
-    theme: "red",
-  },
-  {
-    title: "2",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-suvs.svg",
-    theme: "pink",
-  },
-  {
-    title: "3",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-luxury.svg",
-    theme: "violet",
-  },
-  {
-    title: "4",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-sedans.svg",
-    theme: "orange",
-  },
-  {
-    title: "5",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-suvs.svg",
-    theme: "green",
-  },
-  {
-    title: "6",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-luxury.svg",
-    theme: "dark-green",
-  },
-  {
-    title: "7",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-suvs.svg",
-    theme: "red",
-  },
-  {
-    title: "8",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-sedans.svg",
-    theme: "pink",
-  },
-  {
-    title: "9",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-suvs.svg",
-    theme: "violet",
-  },
-  {
-    title: "10",
-    description: "Cruise in the best car brands without the bloaoated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.",
-    imgUrl: "/icon-luxury.svg",
-    theme: "orange",
-  },
-]
+  { id: 'sedan', title: 'Sedans', theme: 'orange', imgUrl: '/icon-sedans.svg',
+    description: 'Compact vehicles for everyday city journeys.',
+    details: 'Best suited to urban parking and small groups travelling light.' },
+  { id: 'suv', title: 'SUVs', theme: 'green', imgUrl: '/icon-suvs.svg',
+    description: 'Spacious vehicles for family trips and additional luggage.',
+    details: 'Consider the extra space when travelling with several passengers or bulky luggage.' },
+  { id: 'luxury', title: 'Luxury', theme: 'dark-green', imgUrl: '/icon-luxury.svg',
+    description: 'Comfort-focused vehicles for special occasions.',
+    details: 'A demonstration of the premium category; no actual availability or prices are implied.' },
+];
